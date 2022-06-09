@@ -15,10 +15,10 @@
     --text-link-low-saturation: #7b13a8;
 
 }
-.emojiContainer-2XKwXX{
+.emojiContainer-2XKwXX {
     user-select: all;
 }
-.wordmarkWindows-2dq6rw::before{
+.wordmarkWindows-2dq6rw::before {
    content: 'ComfyGray | Purple'!important;
    color: rgb(134, 24, 224);
 
