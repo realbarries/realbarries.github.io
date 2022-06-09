@@ -39,6 +39,31 @@
     background-color: #391259 !important;
 }
 
+/* share screen active */
+#app-mount .sidebar-1tnWFu .panels-3wFtMD .wrapper-3Hk9OB .actionButtons-2vEOUh .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx.button-f2h6uQ {
+    background-color: #8618e0 !important;
+}
+
+/* share screen actice hover */
+#app-mount .sidebar-1tnWFu .panels-3wFtMD .wrapper-3Hk9OB .actionButtons-2vEOUh .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx.button-f2h6uQ:hover {
+    background-color: #391259 !important;
+}
+
+/* screen share popup buttons */
+#app-mount .focusLock-2tveLW .flex-2S1XBF.flex-3BkGQD.directionRowReverse-HZatnx .button-f2h6uQ {
+    background-color: #8618e0 !important;
+}
+
+/* screen share popup buttons hover */
+#app-mount .focusLock-2tveLW .flex-2S1XBF.flex-3BkGQD.directionRowReverse-HZatnx .button-f2h6uQ:hover {
+    background-color: #391259 !important;
+}
+
+/* screen share popup cancel button */
+#app-mount .focusLock-2tveLW .flex-2S1XBF.flex-3BkGQD.directionRowReverse-HZatnx .cancelButton-3QVBfe.button-f2h6uQ {
+    background-color: #222222 !important;
+}
+
 /* changes the bar color for the sliders in the settings */
 .barFill-2Bh7CX {
   background: #8618e0 !important;
