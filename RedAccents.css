@@ -1,6 +1,7 @@
 :root {
   /* radial status custom ccs */
   --rs-idle-color: #ffae00; /* Colour for idle status */
+  --rs-dnd-color: #ff0000; /* Colour for dnd status */
   --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
   
   /* server rings custom ccs */
