@@ -37,7 +37,7 @@
 
 /* Guild List "read all" button (addon) */
 #app-mount .wrapper-1_HaEi.guilds-2JjMmN .listItem-3SmSlK.frame-oXWS21 .wrapper-3kah-n.innerFrame-8Hg64E .childWrapper-1j_1ub.button-Jt-tIg {
-    border: 1px solid red;
+    border: 2px solid red;
     border-radius: 4px;
     border-color: #8618e0 !important;	
 }
@@ -52,9 +52,34 @@
     background-color: #8618e0 !important;
 }
 
-/* share screen actice hover */
+/* share screen active hover */
 #app-mount .sidebar-1tnWFu .panels-3wFtMD .wrapper-3Hk9OB .actionButtons-2vEOUh .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx.button-f2h6uQ:hover {
     background-color: #391259 !important;
+}
+
+/* screen share popup change button */
+#app-mount .focusLock-2tveLW .modalContent-2y3sGW .card-m7VgZ8 .changeButton-2kfgQt.button-f2h6uQ {
+  background-color: #8618e0 !important;
+}
+
+/* screen share popup change button hover */
+#app-mount .focusLock-2tveLW .modalContent-2y3sGW .card-m7VgZ8 .changeButton-2kfgQt.button-f2h6uQ:hover {
+  background-color: #391259 !important;
+}
+
+/* screen share popup quality select hover */
+#app-mount .focusLock-2tveLW .modalContent-2y3sGW .flex-2S1XBF.flex-3BkGQD.directionRow-2Iu2A9 .item-2OyinQ:hover {
+  background-color: #333333 !important;
+}
+
+/* screen share popup quality select selected */
+#app-mount .focusLock-2tveLW .modalContent-2y3sGW .flex-2S1XBF.flex-3BkGQD.directionRow-2Iu2A9 .item-2OyinQ.selectorButtonSelected-3cQUnj {
+  background-color: #8618e0 !important;
+}
+
+/* screen share popup quality select selected hover */
+#app-mount .focusLock-2tveLW .modalContent-2y3sGW .flex-2S1XBF.flex-3BkGQD.directionRow-2Iu2A9 .item-2OyinQ.selectorButtonSelected-3cQUnj:hover {
+  background-color: #391259 !important;
 }
 
 /* screen share popup buttons */
