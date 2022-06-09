@@ -22,8 +22,7 @@
 /* ALL BELOW CHANGES COLORS OF BUTTONS AND OTHER ELEMENTS */
 
 #app-mount .wrapper-1_HaEi.guilds-2JjMmN .listItem-3SmSlK .wrapper-3kah-n.circleIconButton-1VxDrg {
-    background-color: #8618e0 !important;
-    border-color: rgba(134, 24, 224, 0) !important;	
+    border-color: #8618e0 !important;	
 }
 
 #app-mount .wrapper-1_HaEi.guilds-2JjMmN .listItem-3SmSlK .wrapper-3kah-n.circleIconButton-1VxDrg:hover {
@@ -31,7 +30,6 @@
 }
 
 #app-mount .wrapper-1_HaEi.guilds-2JjMmN .listItem-3SmSlK.frame-oXWS21 .wrapper-3kah-n.innerFrame-8Hg64E .childWrapper-1j_1ub.button-Jt-tIg {
-    background-color: #8618e0 !important;
     border-color: #8618e0 !important;	
 }
 
