@@ -25,6 +25,11 @@
 
 /* ALL BELOW CHANGES COLORS OF BUTTONS AND OTHER ELEMENTS */
 
+/* home icon circle */
+#app-mount .wrapper-1_HaEi.guilds-2JjMmN .tutorialContainer-1pL9QS .item-2LIpTv {
+  border-color: #8618e0 !important;
+}
+
 /* Guild List "public" button */
 #app-mount .wrapper-1_HaEi.guilds-2JjMmN .listItem-3SmSlK .wrapper-3kah-n.circleIconButton-1VxDrg {
     border-color: #8618e0 !important;	
