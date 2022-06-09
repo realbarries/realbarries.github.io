@@ -18,6 +18,8 @@
 .emojiContainer-2XKwXX{
     user-select: all;
 }
+.wordmarkWindows-2dq6rw::before{
+   content: 'ComfyGray | Purple'!important;
 
 /* ALL BELOW CHANGES COLORS OF BUTTONS AND OTHER ELEMENTS */
 
