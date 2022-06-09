@@ -23,18 +23,22 @@
 
 /* ALL BELOW CHANGES COLORS OF BUTTONS AND OTHER ELEMENTS */
 
+/* Guild List "public" button */
 #app-mount .wrapper-1_HaEi.guilds-2JjMmN .listItem-3SmSlK .wrapper-3kah-n.circleIconButton-1VxDrg {
     border-color: #8618e0 !important;	
 }
 
+/* Guild List "public" button hover */
 #app-mount .wrapper-1_HaEi.guilds-2JjMmN .listItem-3SmSlK .wrapper-3kah-n.circleIconButton-1VxDrg:hover {
     background-color: #391259 !important;
 }
 
+/* Guild List "read all" button (addon) */
 #app-mount .wrapper-1_HaEi.guilds-2JjMmN .listItem-3SmSlK.frame-oXWS21 .wrapper-3kah-n.innerFrame-8Hg64E .childWrapper-1j_1ub.button-Jt-tIg {
     border-color: #8618e0 !important;	
 }
 
+/* Guild List "read all" button hover (addon) */
 #app-mount .wrapper-1_HaEi.guilds-2JjMmN .listItem-3SmSlK.frame-oXWS21 .wrapper-3kah-n.innerFrame-8Hg64E .childWrapper-1j_1ub.button-Jt-tIg:hover {
     background-color: #391259 !important;
 }
