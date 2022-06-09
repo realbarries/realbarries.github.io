@@ -53,6 +53,31 @@
     background-color: #510400 !important;
 }
 
+/* Add Friends to DM "Creat Group DM" enabled */
+#app-mount .layer-2aCOJ3 .flex-2S1XBF.flex-3BkGQD.directionColumn-3pi1nm .button-f2h6uQ {
+  background-color: #970700 !important;
+}
+
+/* Add Friends to DM "Creat Group DM" enabled hover */
+#app-mount .layer-2aCOJ3 .flex-2S1XBF.flex-3BkGQD.directionColumn-3pi1nm .button-f2h6uQ:hover {
+  background-color: #510400 !important;
+}
+
+/* Add Friends to DM "Creat Group DM" disabled */
+#app-mount .layer-2aCOJ3 .flex-2S1XBF.flex-3BkGQD.directionColumn-3pi1nm .button-f2h6uQ:disabled {
+  background-color: #222222 !important;
+}
+
+/* friends bar selected */
+#app-mount .container-2cd8Mz .children-3xh0VB .tabBar-ra-EuL.topPill-3DJJNV .item-3mHhwr.item-3XjbnG.selected-g-kMVV {
+  background-color: #970700 !important;
+}
+
+/* friends bar selected hover */
+#app-mount .container-2cd8Mz .children-3xh0VB .tabBar-ra-EuL.topPill-3DJJNV .item-3mHhwr.item-3XjbnG.selected-g-kMVV:hover {
+  background-color: #510400 !important;
+}
+
 /* share screen active */
 #app-mount .sidebar-1tnWFu .panels-3wFtMD .wrapper-3Hk9OB .actionButtons-2vEOUh .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx.button-f2h6uQ {
     background-color: #970700 !important;
