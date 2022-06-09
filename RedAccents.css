@@ -1,0 +1,234 @@
+:root {
+  /* radial status custom ccs */
+  --rs-idle-color: #ffae00; /* Colour for idle status */
+  --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+  
+  /* server rings custom ccs */
+  --server-unread-colour: 151, 7, 0;
+  --server-hover-colour: 81, 4, 0;
+  --server-selected-colour: var(--accent, 255, 255, 255);
+  --server-glow-intensity: 0;
+
+  /* main custom ccs */
+    --text-normal: #ffffff;
+    --text-link: #970700;
+    --text-link-low-saturation: #510400;
+
+}
+.emojiContainer-2XKwXX {
+    user-select: all;
+}
+.wordmarkWindows-2dq6rw::before {
+   content: 'ComfyGray | Red'!important;
+   color: rgb(151, 7, 0);
+}
+
+/* ALL BELOW CHANGES COLORS OF BUTTONS AND OTHER ELEMENTS */
+
+/* home icon circle */
+#app-mount .wrapper-1_HaEi.guilds-2JjMmN .tutorialContainer-1pL9QS .item-2LIpTv {
+  border-color: #970700 !important;
+}
+
+/* Guild List "public" button */
+#app-mount .wrapper-1_HaEi.guilds-2JjMmN .listItem-3SmSlK .wrapper-3kah-n.circleIconButton-1VxDrg {
+    border-color: #970700 !important;	
+}
+
+/* Guild List "public" button hover */
+#app-mount .wrapper-1_HaEi.guilds-2JjMmN .listItem-3SmSlK .wrapper-3kah-n.circleIconButton-1VxDrg:hover {
+    background-color: #510400 !important;
+}
+
+/* Guild List "read all" button (addon) */
+#app-mount .wrapper-1_HaEi.guilds-2JjMmN .listItem-3SmSlK.frame-oXWS21 .wrapper-3kah-n.innerFrame-8Hg64E .childWrapper-1j_1ub.button-Jt-tIg {
+    border: 2px solid red;
+    border-radius: 4px;
+    border-color: #970700 !important;	
+}
+
+/* Guild List "read all" button hover (addon) */
+#app-mount .wrapper-1_HaEi.guilds-2JjMmN .listItem-3SmSlK.frame-oXWS21 .wrapper-3kah-n.innerFrame-8Hg64E .childWrapper-1j_1ub.button-Jt-tIg:hover {
+    background-color: #510400 !important;
+}
+
+/* share screen active */
+#app-mount .sidebar-1tnWFu .panels-3wFtMD .wrapper-3Hk9OB .actionButtons-2vEOUh .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx.button-f2h6uQ {
+    background-color: #970700 !important;
+}
+
+/* share screen active hover */
+#app-mount .sidebar-1tnWFu .panels-3wFtMD .wrapper-3Hk9OB .actionButtons-2vEOUh .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx.button-f2h6uQ:hover {
+    background-color: #510400 !important;
+}
+
+/* screen share popup change button */
+#app-mount .focusLock-2tveLW .modalContent-2y3sGW .card-m7VgZ8 .changeButton-2kfgQt.button-f2h6uQ {
+  background-color: #970700 !important;
+}
+
+/* screen share popup change button hover */
+#app-mount .focusLock-2tveLW .modalContent-2y3sGW .card-m7VgZ8 .changeButton-2kfgQt.button-f2h6uQ:hover {
+  background-color: #510400 !important;
+}
+
+/* screen share popup quality select hover */
+#app-mount .focusLock-2tveLW .modalContent-2y3sGW .flex-2S1XBF.flex-3BkGQD.directionRow-2Iu2A9 .item-2OyinQ:hover {
+  background-color: #333333 !important;
+}
+
+/* screen share popup quality select selected */
+#app-mount .focusLock-2tveLW .modalContent-2y3sGW .flex-2S1XBF.flex-3BkGQD.directionRow-2Iu2A9 .item-2OyinQ.selectorButtonSelected-3cQUnj {
+  background-color: #970700 !important;
+}
+
+/* screen share popup quality select selected hover */
+#app-mount .focusLock-2tveLW .modalContent-2y3sGW .flex-2S1XBF.flex-3BkGQD.directionRow-2Iu2A9 .item-2OyinQ.selectorButtonSelected-3cQUnj:hover {
+  background-color: #510400 !important;
+}
+
+/* screen share popup buttons */
+#app-mount .focusLock-2tveLW .flex-2S1XBF.flex-3BkGQD.directionRowReverse-HZatnx .button-f2h6uQ {
+    background-color: #970700 !important;
+}
+
+/* screen share popup buttons hover */
+#app-mount .focusLock-2tveLW .flex-2S1XBF.flex-3BkGQD.directionRowReverse-HZatnx .button-f2h6uQ:hover {
+    background-color: #510400 !important;
+}
+
+/* screen share popup cancel button */
+#app-mount .focusLock-2tveLW .flex-2S1XBF.flex-3BkGQD.directionRowReverse-HZatnx .cancelButton-3QVBfe.button-f2h6uQ {
+    background-color: #222222 !important;
+}
+
+/* changes the bar color for the sliders in the settings */
+.barFill-2Bh7CX {
+  background: #970700 !important;
+}
+
+/* My Account "Change Password" button */
+#app-mount #my-account-tab .marginTop40-Q4o1tS .changePasswordButton-3j5UVD.button-f2h6uQ {
+    background-color: #970700 !important;
+}
+
+/* My Account "Enable Two-Factor Auth" button */
+#app-mount #my-account-tab .marginTop40-Q4o1tS .flex-2S1XBF.flex-3BkGQD.directionRow-2Iu2A9 .button-f2h6uQ {
+    background-color: #970700 !important;
+}
+
+/* My Account profile card "Edit User Profile" & "Edit" button */
+#app-mount #my-account-tab .accountProfileCard-lbN7n- .button-f2h6uQ {
+    background-color: #970700 !important;
+}
+
+/* User Profile "Change Avatar/Remove Avatar" buttons */
+#app-mount #profile-customization-tab .buttonsContainer-12kYno .button-f2h6uQ {
+    background-color: #970700 !important;
+}
+
+/* User Profile "Change Banner/Remove Banner" buttons */
+#app-mount #profile-customization-tab .buttonsContainer-5mLFN9 .button-f2h6uQ {
+    background-color: #970700 !important;
+}
+
+/* Privacy & Safety "Request Data" button outline*/
+#app-mount #privacy-\&-safety-tab .marginBottom40-fvAlAV .flex-2S1XBF.flex-3BkGQD.directionRow-2Iu2A9 .button-f2h6uQ {
+    border-color: #970700 !important;
+}
+
+/* Gift Inventory "Redeem" & "Claim" buttons */
+#app-mount #library-inventory-tab .button-f2h6uQ {
+    background-color: #970700 !important;
+}
+
+/* Billing "Edit" & "Add Payment Method" buttons */
+#app-mount #billing-tab .flex-2S1XBF.flex-3BkGQD.directionRow-2Iu2A9 .button-f2h6uQ {
+    background-color: #970700 !important;
+}
+
+/* Accessibility "Example Button" button */
+#app-mount #accessibility-tab .previewHeader-3XkwNe .button-f2h6uQ {
+    background-color: #970700 !important;
+}
+
+/* Accessibility "Preview" button */
+#app-mount #accessibility-tab .marginBottom20-315RVT .button-f2h6uQ {
+    background-color: #970700 !important;
+}
+
+/* Voice & Video "Let's Check" button */
+#app-mount #voice-\&-video-tab .micTestButton-3bMlCM.button-f2h6uQ {
+    background-color: #970700 !important;
+}
+
+/* Voice & Video "Test Video" button */
+#app-mount #voice-\&-video-tab .cameraWrapper-3a7Ngv .button-f2h6uQ {
+    background-color: #970700 !important;
+}
+
+/* Voice & Video "Upload/Show Folder" button */
+#app-mount #voice-\&-video-tab .marginBottom40-fvAlAV .flex-2S1XBF.flex-3BkGQD.directionRow-2Iu2A9 .flexChild-3PzYmX.button-f2h6uQ {
+    background-color: #970700 !important;
+}
+
+/* Keybinds "Add a Keybind" & "Edit Keybind" buttons */
+#app-mount #keybinds-tab .flex-2S1XBF.flex-3BkGQD.directionRow-2Iu2A9 .flexChild-3PzYmX .button-f2h6uQ {
+    background-color: #970700 !important;
+}
+
+/* Game Overlay "Edit Keybind" button */
+#app-mount #overlay-tab .flex-2S1XBF.flex-3BkGQD.directionRow-2Iu2A9 .button-ZJ9ZzX.button-3og7GZ.button-f2h6uQ {
+    background-color: #970700 !important;
+}
+
+/* Game Overlay "Notification Position" selector */
+#app-mount .notificationSettings-3dppO6 .wrapper-SdcMKg .selected-18Wszc {
+    background-color: #970700 !important;
+}
+#app-mount .notificationSettings-3dppO6 .wrapper-SdcMKg {
+    border-color: #970700 !important;
+}
+#app-mount .notificationSettings-3dppO6 .wrapper-SdcMKg .option-1QI4c9:hover {
+    background-color: #510400 !important;
+}
+#app-mount .notificationSettings-3dppO6 .wrapper-SdcMKg .option-1QI4c9, .notificationSettings-3dppO6 .wrapper-SdcMKg .disabled-35mc5w {
+    transition: 0.5s ease;
+}
+
+/* Emoji/Plugins/Themes title button */
+#app-mount .bd-settings-title .bd-button.bd-button-title {
+    background-color: #970700 !important;
+}
+
+/* Plugins/Themes "List View/Grid View" selected button */
+#app-mount .bd-controls.bd-addon-controls .bd-controls-advanced .bd-addon-views .bd-button.bd-view-button.selected {
+    background-color: #970700 !important;
+}
+
+/* Plugins/Themes "Settings Icon/Edit Icon" button */
+#app-mount .bd-addon-list.bd-grid-view .bd-footer .bd-controls .bd-button.bd-addon-button {
+  background-color: #222222 !important;
+}
+
+/* Plugins/Themes "Delete Icon" button */
+#app-mount .bd-addon-list.bd-grid-view .bd-footer .bd-controls .bd-button.bd-addon-button.bd-button-danger {
+  background-color: #F04747 !important;
+}
+
+/* Plugin/Theme Repo "Check for Updates" button */
+#app-mount .repoList-9JnAPs.contentRegion-3HkfJJ .repoHeader-2KfNvH .flex-2S1XBF.flex-3BkGQD.directionRow-2Iu2A9 .button-f2h6uQ {
+  background-color: #970700 !important;
+}
+
+/* changes some Better Discord button backgrounds like the "Download" button for Plugin/Theme Repo */
+.button-coQXfM {
+  background-color: #970700 !important;
+}
+
+
+/* What's New Text with links embeded */
+#app-mount .focusLock-2tveLW .anchor-1MIwyf.anchorUnderlineOnHover-2qPutX.cta {
+  color: #970700 !important;
+}
+
