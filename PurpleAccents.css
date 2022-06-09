@@ -1,6 +1,7 @@
 :root {
   /* radial status custom ccs */
   --rs-idle-color: #ffae00; /* Colour for idle status */
+  --rs-dnd-color: #ff0000; /* Colour for dnd status */
   --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
   
   /* server rings custom ccs */
@@ -50,6 +51,31 @@
 /* Guild List "read all" button hover (addon) */
 #app-mount .wrapper-1_HaEi.guilds-2JjMmN .listItem-3SmSlK.frame-oXWS21 .wrapper-3kah-n.innerFrame-8Hg64E .childWrapper-1j_1ub.button-Jt-tIg:hover {
     background-color: #391259 !important;
+}
+
+/* Add Friends to DM "Creat Group DM" enabled */
+#app-mount .layer-2aCOJ3 .flex-2S1XBF.flex-3BkGQD.directionColumn-3pi1nm .button-f2h6uQ {
+  background-color: #8618e0 !important;
+}
+
+/* Add Friends to DM "Creat Group DM" enabled hover */
+#app-mount .layer-2aCOJ3 .flex-2S1XBF.flex-3BkGQD.directionColumn-3pi1nm .button-f2h6uQ:hover {
+  background-color: #391259 !important;
+}
+
+/* Add Friends to DM "Creat Group DM" disabled */
+#app-mount .layer-2aCOJ3 .flex-2S1XBF.flex-3BkGQD.directionColumn-3pi1nm .button-f2h6uQ:disabled {
+  background-color: #222222 !important;
+}
+
+/* friends bar selected */
+#app-mount .container-2cd8Mz .children-3xh0VB .tabBar-ra-EuL.topPill-3DJJNV .item-3mHhwr.item-3XjbnG.selected-g-kMVV {
+  background-color: #8618e0 !important;
+}
+
+/* friends bar selected hover */
+#app-mount .container-2cd8Mz .children-3xh0VB .tabBar-ra-EuL.topPill-3DJJNV .item-3mHhwr.item-3XjbnG.selected-g-kMVV:hover {
+  background-color: #391259 !important;
 }
 
 /* share screen active */
