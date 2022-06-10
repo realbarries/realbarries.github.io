@@ -78,6 +78,36 @@
   background-color: #510400 !important;
 }
 
+/* friends bar "add friend" button selected */
+#app-mount .children-3xh0VB .tabBar-ra-EuL .selected-g-kMVV, #app-mount .item-3mHhwr[aria-controls="add_friend-tab"][aria-selected="true"] {
+    background-color: #8618e0 !important;
+}
+
+/* friends bar "add friend" button selected hover */
+#app-mount .children-3xh0VB .tabBar-ra-EuL .selected-g-kMVV, #app-mount .item-3mHhwr[aria-controls="add_friend-tab"][aria-selected="true"]:hover {
+    background-color: #391259 !important;
+}
+
+/* friends bar "add friend" button normal */
+#app-mount .item-3mHhwr[aria-controls="add_friend-tab"][aria-selected="true"] span {
+    color: white;
+}
+
+/* online people list hover */
+#app-mount .container-2cd8Mz .peopleList-2VBrVI .peopleListItem-u6dGxF:hover {
+  background-color: #222222 !important;
+}
+
+/* online currently playing background color */
+#app-mount .container-2cd8Mz .nowPlayingColumn-1eCBCN .scroller-hE2gWq .itemCard-3Etziu {
+  background-color: #222222 !important;
+}
+
+/* online currently playing background color hover */
+#app-mount .container-2cd8Mz .nowPlayingColumn-1eCBCN .scroller-hE2gWq .itemCard-3Etziu:hover {
+  background-color: #333333 !important;
+}
+
 /* share screen active */
 #app-mount .sidebar-1tnWFu .panels-3wFtMD .wrapper-3Hk9OB .actionButtons-2vEOUh .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx.button-f2h6uQ {
     background-color: #970700 !important;
