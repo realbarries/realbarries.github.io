@@ -37,6 +37,10 @@
 #app-mount .wrapper-1_HaEi.guilds-2JjMmN .tutorialContainer-1pL9QS .item-2LIpTv {
     border-color: #8618e0 !important;
 }
+/* home icon circle hover */
+#app-mount .wrapper-1_HaEi.guilds-2JjMmN .tutorialContainer-1pL9QS .item-2LIpTv:hover {
+    border-color: #391259 !important;
+}
 
 
 /* Guild List "public" button */
